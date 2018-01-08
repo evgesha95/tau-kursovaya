@@ -60,7 +60,7 @@ namespace kursovaya
         {
             foreach (double a in X)
                 System.Console.Write("{0:0.000} ", a);
-            System.Console.WriteLine(" \n ");
+            System.Console.WriteLine("  ");
 
 
             int size = X.Count();
@@ -128,11 +128,13 @@ namespace kursovaya
                 if (row.ElementAt(0) <= 0)
                 {
                     System.Console.WriteLine("UNSTABLE");
+                    System.Console.WriteLine(" \n ");
                     return false;
                 }
             }
 
             System.Console.WriteLine("STABLE");
+            System.Console.WriteLine(" \n ");
             return true;
         }
 
