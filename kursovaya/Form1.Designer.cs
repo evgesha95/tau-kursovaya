@@ -33,10 +33,11 @@
             // 
             // answer
             // 
-            this.answer.Location = new System.Drawing.Point(32, 36);
+            this.answer.Location = new System.Drawing.Point(23, 28);
             this.answer.Name = "answer";
-            this.answer.Size = new System.Drawing.Size(100, 20);
+            this.answer.Size = new System.Drawing.Size(419, 20);
             this.answer.TabIndex = 0;
+            this.answer.TextChanged += new System.EventHandler(this.answer_TextChanged);
             // 
             // Form1
             // 
